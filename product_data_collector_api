@@ -1,6 +1,5 @@
 Code:
 
-# Initializing Spark Session with Hive Suport
 spark = SparkSession.builder \
     .appName("Product Data Collector") \
     .enableHiveSupport() \
